@@ -34,7 +34,7 @@ export const GET: RequestHandler = async ({url}) => {
             if (PUBLIC_DEV) {
                 console.error(error)
             }
-            sverror(400, 'Failed to unsubscribe')
+            sverror(500, 'Failed to unsubscribe')
         }
 
         return new Response(JSON.stringify({ success: true }), {
