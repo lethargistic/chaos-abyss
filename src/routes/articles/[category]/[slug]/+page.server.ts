@@ -2,6 +2,7 @@ import {error as sverror} from "@sveltejs/kit";
 import {getClient} from "$lib/utils/getSupabaseClient";
 import {escapeHTML} from "$lib/utils/escapeHTML";
 import {calculateDeepAccent} from "$lib/utils/calculateDeepAccent";
+import {getWordCount} from "$lib/utils/getWordCount";
 
 export const prerender = 'auto';
 
@@ -113,7 +114,7 @@ export const load = async ({params}) => {
 
     // misc
 
-    const wordcount = article.contentmd?.trim().replace(/\s+/g, ' ').split(' ').length;
+    const wordcount = getWordCount(article.contentmd ?? 0);
     const authorlink = authors.find(author => author.name === article.author)?.link;
 
     return {
