@@ -1,7 +1,7 @@
 export const calculateDeepAccent = (accent: string) => {
     const match = accent.match(/^oklch\(\s*([\d.]+)\s+([\d.]+)\s+([\d.]+)(?:\s*\/\s*([\d.]+))?\s*\)$/);
     if (!match) {
-        console.warn("Maksiks: Invalid accent, default will be used instead.");
+        console.warn("Lethargistic: Invalid accent, default will be used instead.");
         return "oklch(0.8149 0.1044 20)";
     } else {
         let [l, c, h] = match.slice(1).map(Number);

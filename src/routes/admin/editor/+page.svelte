@@ -90,7 +90,7 @@
     let figalt = $state(localDetails.figalt ?? '');
     let jewel = $state(!!localDetails.jewel); // coerces to boolean
     let reminder = $state(localDetails.reminder ?? '');
-    let author = $state(localDetails.author ?? 'Maksiks');
+    let author = $state(localDetails.author ?? 'Lethargistic');
 
     let hue = $state(parseFloat(browser ? (localStorage.getItem('hue') ?? '30') : '30'));
     let accent = $derived(`oklch(0.8149 0.1044 ${hue})`);

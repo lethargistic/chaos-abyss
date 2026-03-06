@@ -7,7 +7,7 @@ import {getWordCount} from "$lib/utils/getWordCount";
 export const prerender = 'auto';
 
 const authors = [{
-    name: 'Maksiks',
+    name: 'Lethargistic',
     link: '/about',
 }]
 
@@ -27,7 +27,7 @@ export const load = async ({params}) => {
         throw sverror(404, 'Oh no, article not found.');
     }
 
-    article.author ??= "Maksiks";
+    article.author ??= "Lethargistic";
 
     // adjacent articles
     const [nextArtRes, previousArtRes] = await Promise.all([
@@ -106,7 +106,7 @@ export const load = async ({params}) => {
     // accent
     const match = article.accent.match(/^oklch\(\s*([\d.]+)\s+([\d.]+)\s+([\d.]+)(?:\s*\/\s*([\d.]+))?\s*\)$/);
     if (!match) {
-        console.warn("Maksiks: Invalid accent, default will be used instead.");
+        console.warn("Lethargistic: Invalid accent, default will be used instead.");
         article.accent = 'oklch(0.8149 0.1044 19.57)'
     }
 
