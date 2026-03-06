@@ -14,7 +14,7 @@
     let {meta} = $derived(page.data);
     $effect(() => {
         if (!meta) {
-            console.warn("Maksiks: No meta info found for page! YOU'VE DISTRIBUTED THE SEO GODS");
+            console.warn("Lethargistic: No meta info found for page! YOU'VE DISTRIBUTED THE SEO GODS");
         }
     })
 

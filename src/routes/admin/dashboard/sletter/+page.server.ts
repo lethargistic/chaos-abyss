@@ -82,13 +82,13 @@ export const actions = {
 
         const emailsWithInfo = await Promise.all(emails?.map(async ({email}: {email: string}) => {
             return {
-            from: 'Maksiks <newsletter@chaos-abyss.com>',
+            from: 'Leth <newsletter@chaos-abyss.com>',
             to: [email],
             subject: `Chaos Abyss Newsletter - ${new Date().toLocaleDateString()}`,
             html:
                 `
                 ${text}
-                <small style="color: gray">This one's no good for replies, contact me at maksiks.touch@gmail.com instead.</small><br>
+                <small style="color: gray">This one's no good for replies, contact me at lethargistic.touch@gmail.com instead.</small><br>
                 <small><a style="color: gray" href="https://www.chaos-abyss.com/api/unsubscribe?jwt=${await createJWT(email)}&lirith=false">unsubscribe</a></small>
                 `.trim()
         }}));

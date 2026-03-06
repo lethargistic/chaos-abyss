@@ -38,7 +38,7 @@ const content =
 const emailsBatch = await getEmails();
 
 const emailsWithInfo = emailsBatch.map((email) => ({
-    from: 'Maksiks <lirith@chaos-abyss.com>',
+    from: 'Leth <lirith@chaos-abyss.com>',
     to: [email],
     subject: 'Lirith updates',
     html: content
@@ -48,7 +48,7 @@ await resend.batch.send(emailsWithInfo);
 
 await resend.emails.send([
     {
-        from: 'Maksiks <lirith@chaos-abyss.com>',
+        from: 'Leth <lirith@chaos-abyss.com>',
         to: [email],
         subject: 'Lirith updates',
         html: content

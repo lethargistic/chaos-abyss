@@ -30,7 +30,7 @@
             quote = currentQuote;
             below = quote?.nextElementSibling as HTMLElement;
             if (!below) {
-                console.warn("Maksiks: A blockquote is not supposed to exist without an element after it. Likely just move the '>' 1 line back.")
+                console.warn("Lethargistic: A blockquote is not supposed to exist without an element after it. Likely just move the '>' 1 line back.")
                 return;
             }
             parentElem = quote?.parentElement as HTMLElement;

@@ -153,6 +153,9 @@
 - [ ] : maybe: maybe fix emailbox jank ; it's fixed already ; no it's still jank sometimes for some reason ; the lirith emailbox is jank because it reloads the whole component (for some reason)
 - [ ] : maybe: maybe make self-made markdown-it plugins into packages because evil
 
+- [ ] : todo very: abyss md lib, compiles to GFM with fallbacks safely
+
+
 i should really use like Trello for this
 
 man spends day making an easter egg and fixes instead of progress im so doomed

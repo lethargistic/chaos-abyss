@@ -30,18 +30,18 @@ export const load = ({url}) => {
                 // look at him yapping about himself
                 "mainEntity": {
                     "@type": "Person",
-                    "name": "Maksiks",
-                    "url": "https://maksiksync.vercel.app",
+                    "name": "Lethargistic",
+                    "url": "https://lethargistic.is-a.dev",
                     "gender": "Male",
-                    "knowsLanguage": ["English", "Ukrainian", "Japanese"],
-                    "alternateName": "maksiksq",
-                    "description": "Maksiks is a self-taught software developer with a passion for Japanese, games, media, and design.",
+                    "knowsLanguage": ["English", "Ukrainian", "Japanese", "toki pona"],
+                    "alternateName": "Leth",
+                    "description": "Lethargistic is a self-taught software developer with a passion for Japanese, games, media, and design.",
                     "image": "https://www.chaos-abyss.com/img/pfpvlike40somethingidkilostcountsquaresmol.webp",
                     "sameAs": [
-                        "https://github.com/maksiksq",
-                        "https://bsky.app/profile/maksiks.bsky.social",
-                        "https://x.com/maksiksq",
-                        "https://maksiksync.vercel.app"
+                        "https://github.com/lethargistic",
+                        "https://bsky.app/profile/lethargistic.bsky.social",
+                        "https://x.com/lethargy_coffee",
+                        "https://lethargistic.is-a.dev"
                     ],
                     "jobTitle": "Software Developer",
                     "knowsAbout": [

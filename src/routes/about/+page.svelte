@@ -69,7 +69,7 @@
                 </p>
                 <p>
                     The thing is built and crafted in Svelte, and it's <a
-                        href="https://github.com/maksiksq/chaos-abyss/"
+                        href="https://github.com/lethargistic/chaos-abyss/"
                         style="text-decoration: underline; cursor: pointer"> open-sauce</a>. Go check it out, or else...
                 </p>
                 <p>
@@ -90,11 +90,11 @@
             </div>
         </section>
         <section class="content">
-            <img class="pfp" width="524" height="524" src="/img/pfpvlike40somethingidkilostcountsquaresmol.webp" alt="Maksiks profile pic" loading="lazy"/>
+            <img class="pfp" width="524" height="524" src="/img/pfp.webp" alt="Lethargistic profile pic" loading="lazy"/>
             <h1>Who is behind all this</h1>
             <div class="content-text">
                 <p>
-                    Muhahaha - I'm Maksiks, an incredibly tired wizard individual.
+                    Muhahaha - I'm Lethargistic, an incredibly tired wizard individual.
                 </p>
                 <p>
                     I live in
